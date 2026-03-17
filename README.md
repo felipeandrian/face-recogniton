@@ -7,7 +7,7 @@
 
 Uma Prova de Conceito (Proof of Concept) desenvolvida para demonstrar os fundamentos de Deep Learning e Visão Computacional. Este projeto implementa uma Rede Neural Convolucional (CNN) **construída inteiramente do zero**, sem o uso de modelos pré-treinados (Transfer Learning), para a classificação e reconhecimento de personalidades históricas e contemporâneas.
 
- **[Live Demo no Hugging Face Spaces](https://huggingface.co/spaces/felipeandrian/face-recognition-identities)**
+ **[Live Demo no Hugging Face Spaces](https://felipeandrian-face-recognition-identities.hf.space/)**
 
 ---
 
@@ -133,4 +133,3 @@ Para evoluir esta arquitetura para um cenário de larga escala, os seguintes pas
 * Implementação de uma função de perda angular (ex: **CosFace** ou **ArcFace**) para forçar maior distância inter-classes.
 * Migração do pipeline de treino para GPUs/TPUs utilizando PyTorch Lightning.
 
-```
