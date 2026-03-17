@@ -1,0 +1,8 @@
+# Ignorar arquivos pesados de IA
+*.pth
+dataset_cientistas/
+
+# Ignorar lixo do Python
+__pycache__/
+*.pyc
+.env
